@@ -50,7 +50,13 @@
     boxShadow: 0 0 0 8px var(--pulse-color);
     }
   }
-}
+  --animate-grid: grid 15s linear infinite
+;
+  @keyframes grid {
+  0% {
+    transform: translateY(-50%);}
+  100% {
+    transform: translateY(0);}}}
 
 :root {
   --radius: 0.625rem;
