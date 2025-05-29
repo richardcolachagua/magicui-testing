@@ -1,9 +1,11 @@
-import { Globe } from "@/components/magicui/globe";
+import { TextAnimate } from "@/components/magicui/text-animate";
 
 export default function Home() {
   return (
     <div>
-      <Globe />
+      <TextAnimate animation="scaleUp" by="text">
+        Scale up by text
+      </TextAnimate>
     </div>
   );
 }
